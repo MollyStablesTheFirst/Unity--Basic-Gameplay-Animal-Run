@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2848171975447737573}
   - component: {fileID: 6435988073249306523}
   - component: {fileID: 2205608706472034292}
+  - component: {fileID: 197431771419835767}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Untagged
@@ -113,6 +114,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0.25, z: 0.05}
+--- !u!114 &197431771419835767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89359461490446489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628c07ca1577eae41b52086cc1023427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &950944324347127933
 GameObject:
   m_ObjectHideFlags: 0

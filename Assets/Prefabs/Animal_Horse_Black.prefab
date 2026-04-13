@@ -1046,6 +1046,7 @@ GameObject:
   - component: {fileID: 3516332795183011939}
   - component: {fileID: 6620424676997132117}
   - component: {fileID: 9130192970876176109}
+  - component: {fileID: 1450667918535701544}
   m_Layer: 0
   m_Name: Animal_Horse_Black
   m_TagString: Untagged
@@ -1142,6 +1143,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 40, z: 48}
   m_Center: {x: 0, y: 18, z: 5}
+--- !u!114 &1450667918535701544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5403812975864114709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628c07ca1577eae41b52086cc1023427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &5428829404508959760
 GameObject:
   m_ObjectHideFlags: 0
