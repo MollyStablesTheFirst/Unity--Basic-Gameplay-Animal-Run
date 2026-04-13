@@ -13,7 +13,7 @@ public class DetectCollisions : MonoBehaviour
     {
         
     }
-
+    //Destroys objects when they collied
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);

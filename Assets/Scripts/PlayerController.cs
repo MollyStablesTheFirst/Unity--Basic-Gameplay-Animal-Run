@@ -9,23 +9,27 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //Prevents player from exiting the screen
-        if(transform.position.x < -xRange) {    
+        if (transform.position.x < -xRange)
+        {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
+        //Allows the player to move if the left or right key are pressed
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
+        //Lauches projectile if space bar is pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
             //Lauch projectile from the player
